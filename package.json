@@ -4,14 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "conjugate-gradient": "0.0.2",
+    "cors": "^2.8.5",
+    "csr-matrix": "^2.0.0",
+    "cubic-spline": "^3.0.3",
     "esm": "^3.2.25",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "linear-equation-system": "^1.1.1",
+    "mathjs": "^9.3.2",
+    "multiregress": "^1.0.0",
+    "regression": "^2.0.1",
+    "rref": "0.0.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
